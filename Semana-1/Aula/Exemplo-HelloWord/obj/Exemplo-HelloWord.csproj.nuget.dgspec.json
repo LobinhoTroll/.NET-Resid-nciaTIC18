@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Exemplo-HelloWord/Exemplo-HelloWord.csproj": {}
+    "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Aula/Exemplo-HelloWord/Exemplo-HelloWord.csproj": {}
   },
   "projects": {
-    "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Exemplo-HelloWord/Exemplo-HelloWord.csproj": {
+    "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Aula/Exemplo-HelloWord/Exemplo-HelloWord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Exemplo-HelloWord/Exemplo-HelloWord.csproj",
+        "projectUniqueName": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Aula/Exemplo-HelloWord/Exemplo-HelloWord.csproj",
         "projectName": "Exemplo-HelloWord",
-        "projectPath": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Exemplo-HelloWord/Exemplo-HelloWord.csproj",
+        "projectPath": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Aula/Exemplo-HelloWord/Exemplo-HelloWord.csproj",
         "packagesPath": "/home/gabriel-dos-teles/.nuget/packages/",
-        "outputPath": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Exemplo-HelloWord/obj/",
+        "outputPath": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Aula/Exemplo-HelloWord/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gabriel-dos-teles/.nuget/NuGet/NuGet.Config"
