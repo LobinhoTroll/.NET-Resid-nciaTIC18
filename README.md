@@ -2,4 +2,5 @@
 
 # Semana 1
 
-1.Criação do exemplo base "Hello Word".
+1.Organização das pastas no Github.
+2.Criação do exemplo base "Hello Word" em aula.
