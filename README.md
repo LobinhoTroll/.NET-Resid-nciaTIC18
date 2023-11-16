@@ -11,4 +11,4 @@
 ## Semana 2
 1. Revisão de estruturas para controle de fluxo; de repetição: for,while, do while e foreach. condicionais: if,else e if else.
 2. Como funciona o foreach.
-3. Exercícios em aula sobra controle de fluxo.
+3. Exercícios em aula sobre controle de fluxo.
