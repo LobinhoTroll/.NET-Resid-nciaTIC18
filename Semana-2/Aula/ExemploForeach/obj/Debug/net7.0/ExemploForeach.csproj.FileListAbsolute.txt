@@ -1,0 +1,15 @@
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/obj/Debug/net7.0/ExemploForeach.csproj.AssemblyReference.cache
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/obj/Debug/net7.0/ExemploForeach.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/obj/Debug/net7.0/ExemploForeach.AssemblyInfoInputs.cache
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/obj/Debug/net7.0/ExemploForeach.AssemblyInfo.cs
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/obj/Debug/net7.0/ExemploForeach.csproj.CoreCompileInputs.cache
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/bin/Debug/net7.0/ExemploForeach
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/bin/Debug/net7.0/ExemploForeach.deps.json
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/bin/Debug/net7.0/ExemploForeach.runtimeconfig.json
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/bin/Debug/net7.0/ExemploForeach.dll
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/bin/Debug/net7.0/ExemploForeach.pdb
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/obj/Debug/net7.0/ExemploForeach.dll
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/obj/Debug/net7.0/refint/ExemploForeach.dll
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/obj/Debug/net7.0/ExemploForeach.pdb
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/obj/Debug/net7.0/ExemploForeach.genruntimeconfig.cache
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-2/Aula/ExemploForeach/obj/Debug/net7.0/ref/ExemploForeach.dll
