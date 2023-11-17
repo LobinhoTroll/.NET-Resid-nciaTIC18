@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+STSRy6ure7BUtQ61xnOjCWZsjtmXx9qduKHFqQ8/tx8VM8TqvBuXsE61jyzCsA2cPSnR1yKl/yW1RX61ngSRA==",
+  "dgSpecHash": "AUre4rqINir3k2RQ0i6AKbRsADFfrxWEzb9KZ8D3qygFfwktQHZtIoiehIeSETDt02qN0lt8hHAEjq2MnKU9yg==",
   "success": true,
-  "projectFilePath": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-1/Aula/Exemplo-HelloWord/Exemplo-HelloWord.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\.NET\\.NET-ResidenciaTIC18\\Semana-1\\Aula\\Exemplo-HelloWord\\Exemplo-HelloWord.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
