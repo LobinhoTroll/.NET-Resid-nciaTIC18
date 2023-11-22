@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.NET\\.NET-ResidenciaTIC18\\Semana-1\\Atividade\\P001-1\\P001-1.csproj",
-      "projectName": "P001-1",
-      "projectPath": "E:\\.NET\\.NET-ResidenciaTIC18\\Semana-1\\Atividade\\P001-1\\P001-1.csproj",
+      "projectUniqueName": "E:\\.NET\\.NET-ResidenciaTIC18\\Semana-2\\P002-1\\P002-1.csproj",
+      "projectName": "P002-1",
+      "projectPath": "E:\\.NET\\.NET-ResidenciaTIC18\\Semana-2\\P002-1\\P002-1.csproj",
       "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "E:\\.NET\\.NET-ResidenciaTIC18\\Semana-1\\Atividade\\P001-1\\obj\\",
+      "outputPath": "E:\\.NET\\.NET-ResidenciaTIC18\\Semana-2\\P002-1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config"
