@@ -13,3 +13,7 @@
 1. Revisão de estruturas para controle de fluxo; de repetição: for,while, do while e foreach. condicionais: if,else e if else.
 2. Como funciona o foreach.
 3. Exercícios em aula sobre controle de fluxo.
+
+## Semana 3
+1. Aprendendo uso de listas,arrays e a classe DateTime e suas funções.
+2. Atividade P002.

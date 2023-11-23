@@ -1,0 +1,15 @@
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\bin\Debug\net8.0\P002-1.exe
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\bin\Debug\net8.0\P002-1.deps.json
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\bin\Debug\net8.0\P002-1.runtimeconfig.json
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\bin\Debug\net8.0\P002-1.dll
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\bin\Debug\net8.0\P002-1.pdb
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\obj\Debug\net8.0\P002-1.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\obj\Debug\net8.0\P002-1.AssemblyInfoInputs.cache
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\obj\Debug\net8.0\P002-1.AssemblyInfo.cs
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\obj\Debug\net8.0\P002-1.csproj.CoreCompileInputs.cache
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\obj\Debug\net8.0\P002-1.sourcelink.json
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\obj\Debug\net8.0\P002-1.dll
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\obj\Debug\net8.0\refint\P002-1.dll
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\obj\Debug\net8.0\P002-1.pdb
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\obj\Debug\net8.0\P002-1.genruntimeconfig.cache
+E:\.NET\.NET-ResidenciaTIC18\Semana-2\P002-1\obj\Debug\net8.0\ref\P002-1.dll
