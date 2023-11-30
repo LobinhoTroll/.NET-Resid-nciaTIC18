@@ -1,0 +1,15 @@
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/obj/Debug/net7.0/Exercício-1.csproj.AssemblyReference.cache
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/obj/Debug/net7.0/Exercício-1.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/obj/Debug/net7.0/Exercício-1.AssemblyInfoInputs.cache
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/obj/Debug/net7.0/Exercício-1.AssemblyInfo.cs
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/obj/Debug/net7.0/Exercício-1.csproj.CoreCompileInputs.cache
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/bin/Debug/net7.0/Exercício-1
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/bin/Debug/net7.0/Exercício-1.deps.json
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/bin/Debug/net7.0/Exercício-1.runtimeconfig.json
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/bin/Debug/net7.0/Exercício-1.dll
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/bin/Debug/net7.0/Exercício-1.pdb
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/obj/Debug/net7.0/Exercício-1.dll
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/obj/Debug/net7.0/refint/Exercício-1.dll
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/obj/Debug/net7.0/Exercício-1.pdb
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/obj/Debug/net7.0/Exercício-1.genruntimeconfig.cache
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Exercício-1/obj/Debug/net7.0/ref/Exercício-1.dll
