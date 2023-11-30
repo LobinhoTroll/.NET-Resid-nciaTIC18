@@ -32,11 +32,50 @@ class Advogado{
             CPF = _cpf;
             verifExistenceEnd == true;
         }else{
-            Console.WriteLine("CPF ja cadastrado infome um cpf valido");
+            Console.WriteLine("CPF ja cadastrado informe um cpf valido");
             Console.WriteLine();
         }    
         } while (verifExistenceEnd == false)
     }
+    public CNA{
+        get{
+            return (CPF)base.
+        };
+        set{
+        bool ValidarStringNumerica(string cna){
+            string pattern = @"^\d{11}$";
+            return Regex.IsMatch(cna, pattern);
+            }
+        };
+        bool verifFormat == false;
+        bool verifExistenceEnd == false
+        do
+        {
+            do
+            {
+            Console.WriteLine("Informe o seu CNA: ");
+            string _cna = Console.ReadLine(); 
+            if ValidarStringNumerica(_cna) == true){
+                verifFormat = true;
+            }else{
+                Console.WriteLine("Formato de CNA invalido");
+                Console.WriteLine();
+                }
+            } while (true);    
+            verifExistence == advodadosLista.Any(x => x.CPF == _cpf);
+            if(verifExistence == false){
+            CPF = _cpf;
+            verifExistenceEnd == true;
+            }else{
+            Console.WriteLine("CPF ja cadastrado informe um cpf valido");
+            Console.WriteLine();
+            } 
+        
+        } while (verifExistenceEnd == false)
+        
+
+    }
+
 }
 
 class Cliente{
