@@ -1,11 +1,16 @@
 ﻿List<Advogado> advodadosLista = new List<Advogado>();
+#region Classes
+#region Classe advogado
 class Advogado{
     private string Nome,DataNascimento,CPF,CNA;
 
-    public CPF{
+    public string Nome { get; set; }
+    public string DataNascimento { get; set;}
+    public string CPF{
         get{
             return (CPF)base.
-        }
+        };
+        
         set{
         verifFormat = false;
         verifExistenceEnd == false;
@@ -37,8 +42,9 @@ class Advogado{
             Console.WriteLine();
         }    
         } while (verifExistenceEnd == false)
-    }
-    public CNA{
+        };
+    } 
+    public string CNA{
         get{
             return (CNA)base.
         };
@@ -47,7 +53,7 @@ class Advogado{
             string pattern = @"^\d{11}$";
             return Regex.IsMatch(cna, pattern);
             }
-        };
+        
         bool verifFormat == false;
         bool verifExistenceEnd == false
         do
@@ -73,9 +79,25 @@ class Advogado{
             Console.WriteLine();
             } 
         } while (verifExistenceEnd == false)
-    }
+    };
 }
-
+}
+#endregion
+#region Classe Cliente
 class Cliente{
     private string Nome,DataNascimento,CPF,EstadoCivil,Profissao;
+
+    public string Nome {get; set;}
+    public string DataNascimento {get; set;}
+    public string CPF {get;set}
+    public string EstadoCivil {
+        get{
+            return (EstadoCivil)base.
+        }; 
+        set{
+            
+        };
+        }
 }
+#endregion
+#endregion
