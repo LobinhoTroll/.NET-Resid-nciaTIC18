@@ -95,7 +95,18 @@ class Cliente{
             return (EstadoCivil)base.
         }; 
         set{
-            
+            bool verif == false;
+            Console.WriteLine("Informe seu estado civil: ");
+            do
+            {
+                string _estadoCiv = Console.ReadLine();
+                if(_estadoCiv.ToLower() == "solteiro"||_estadoCiv.ToLower() == "casado"){
+                    EstadoCivil = _estadoCiv;
+                    verif = true;
+                }else{
+                    Console.WriteLine("Infome uma resposta valida: ");
+                }
+            } while (verif == false;)
         };
         }
 }
