@@ -102,6 +102,9 @@ class Advogado
             } while (verifExistenceEnd == false)
     };
     }
+    public void mandarPraLista(){
+    advodadosLista.Add(this.Advogado);
+    }
 }
 #endregion
 #region Classe Cliente
@@ -184,6 +187,22 @@ class Cliente
             } while (verifExistenceEnd == false)
         };
     }
+    public void mandarPraLista(){
+    clientesLista.Add(this.Cliente);
+    }
 }
 #endregion
 #endregion
+public List<Advogado> listaPorIdade advogadosFaixaDeIdade(int min,int max){
+var correspondencias = advogadosLista.Where(x => x.DataNascimento >= DateTime.Now.Year-min && x <= DateTime.Now.Year-max).ToList();
+    return correspondencias;
+}
+public void clientesFaixaDeIdade(int min,int max){
+var correspondencias = clientesLista.Where(x => x.DataNascimento >= DateTime.Now.Year-min && x <= DateTime.Now.Year-max);
+    return correspondencias;
+}
+public static void Main(string[] args){
+    Advogado advogado = new Advogado();
+    Cliente cliente = new Cliente();    
+
+}
