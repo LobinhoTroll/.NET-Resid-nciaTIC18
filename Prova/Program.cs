@@ -33,13 +33,14 @@ class Advogado{
             verifExistenceEnd == true;
         }else{
             Console.WriteLine("CPF ja cadastrado informe um cpf valido");
+            verifFormat == false;
             Console.WriteLine();
         }    
         } while (verifExistenceEnd == false)
     }
     public CNA{
         get{
-            return (CPF)base.
+            return (CNA)base.
         };
         set{
         bool ValidarStringNumerica(string cna){
@@ -62,20 +63,17 @@ class Advogado{
                 Console.WriteLine();
                 }
             } while (true);    
-            verifExistence == advodadosLista.Any(x => x.CPF == _cpf);
+            verifExistence == advodadosLista.Any(x => x.CNA == _cna);
             if(verifExistence == false){
-            CPF = _cpf;
+            CNA = _cna;
             verifExistenceEnd == true;
             }else{
-            Console.WriteLine("CPF ja cadastrado informe um cpf valido");
+            Console.WriteLine("CNA ja cadastrado informe um CNA valido");
+            verifFormat == false;
             Console.WriteLine();
             } 
-        
         } while (verifExistenceEnd == false)
-        
-
     }
-
 }
 
 class Cliente{
