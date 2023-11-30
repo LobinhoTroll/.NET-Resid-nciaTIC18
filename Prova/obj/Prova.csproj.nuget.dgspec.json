@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Prova/Prova.csproj": {}
+    "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Prova/Prova.csproj": {}
   },
   "projects": {
-    "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Prova/Prova.csproj": {
+    "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Prova/Prova.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Prova/Prova.csproj",
+        "projectUniqueName": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Prova/Prova.csproj",
         "projectName": "Prova",
-        "projectPath": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Prova/Prova.csproj",
+        "projectPath": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Prova/Prova.csproj",
         "packagesPath": "/home/gabriel-dos-teles/.nuget/packages/",
-        "outputPath": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Semana-4/Aula/Prova/obj/",
+        "outputPath": "/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Prova/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gabriel-dos-teles/.nuget/NuGet/NuGet.Config"

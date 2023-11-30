@@ -8,12 +8,12 @@ class Advogado
 
     public string Nome { get; set; }
     public string DataNascimento { get; set; }
-    public string CPF
+    public string _CPF
     {
         get
         {
-            return (CPF)base.
-        };
+            return CPF;
+        }
 
         set
         {
@@ -31,15 +31,16 @@ class Advogado
                         string pattern = @"^\d{3}\.\d{3}\.\d{3}-\d{2}$";
                         return Regex.IsMatch(cpf, pattern);
                     }
-                    if (ValidarFormatoCPF(_cpf) == true{
+                    if (ValidarFormatoCPF(_cpf) == true){
                         verifFormat = true;
                     }
                     else
                     {
                         Console.WriteLine("CPF inválido Informe um cpf no padrão xxx.xxx.xxx.-xx");
                     }
-                } while (verifFormat == false)
-    
+                } while (verifFormat == false);
+
+
 
         verifExistence == advodadosLista.Any(x => x.CPF == _cpf);
                 if (verifExistence == false)
@@ -53,15 +54,15 @@ class Advogado
                     verifFormat == false;
                     Console.WriteLine();
                 }
-            } while (verifExistenceEnd == false)
-        };
+            } while (verifExistenceEnd == false);
+        }
     }
     public string CNA
     {
         get
         {
-            return (CNA)base.
-        };
+            return CNA;
+        }
         set
         {
             bool ValidarStringNumerica(string cna)
@@ -70,15 +71,15 @@ class Advogado
                 return Regex.IsMatch(cna, pattern);
             }
 
-            bool verifFormat == false;
-            bool verifExistenceEnd == false
+            bool verifFormat = false;
+            bool verifExistenceEnd = false;
             Console.WriteLine("Informe o seu CNA: ");
             do
             {
                 do
                 {
                     string _cna = Console.ReadLine();
-                    if ValidarStringNumerica(_cna) == true)
+                    if (ValidarStringNumerica(_cna) == true)
                     {
                         verifFormat = true;
                     }
@@ -99,11 +100,12 @@ class Advogado
                     Console.WriteLine("CNA ja cadastrado informe um CNA valido: ");
                     verifFormat == false;
                 }
-            } while (verifExistenceEnd == false)
-    };
+            } while (verifExistenceEnd == false);
     }
-    public void mandarPraLista(){
-    advodadosLista.Add(this.Advogado);
+    }
+    public void mandarPraLista()
+    {
+        advodadosLista.Add(this.Advogado);
     }
 }
 #endregion
@@ -119,11 +121,11 @@ class Cliente
     {
         get
         {
-            return (EstadoCivil)base.
-        };
+            return EstadoCivil;
+        }
         set
         {
-            bool verif == false;
+            bool verif = false;
             Console.WriteLine("Informe seu estado civil: ");
             do
             {
@@ -137,15 +139,15 @@ class Cliente
                 {
                     Console.WriteLine("Infome uma resposta valida: ");
                 }
-            } while (verif == false;)
-        };
+            } while (verif == false);
+        }
     }
     public string CPF
     {
         get
         {
-            return (CPF)base.
-        };
+            return CPF;
+        }
 
         set
         {
@@ -163,16 +165,14 @@ class Cliente
                         string pattern = @"^\d{3}\.\d{3}\.\d{3}-\d{2}$";
                         return Regex.IsMatch(cpf, pattern);
                     }
-                    if (ValidarFormatoCPF(_cpf) == true{
+                    if (ValidarFormatoCPF(_cpf) == true){
                         verifFormat = true;
                     }
                     else
                     {
                         Console.WriteLine("CPF inválido Informe um cpf no padrão xxx.xxx.xxx.-xx: ");
                     }
-                } while (verifFormat == false)
-    
-
+                } while (verifFormat == false);
         verifExistence == clientesLista.Any(x => x.CPF == _cpf);
                 if (verifExistence == false)
                 {
@@ -184,25 +184,48 @@ class Cliente
                     Console.WriteLine("CPF ja cadastrado informe um cpf valido");
                     verifFormat == false;
                 }
-            } while (verifExistenceEnd == false)
-        };
+            } while (verifExistenceEnd == false);
+        }
     }
-    public void mandarPraLista(){
-    clientesLista.Add(this.Cliente);
+    public void mandarPraLista()
+    {
+        clientesLista.Add(this.Cliente);
+    }
+}
+#endregion
+#region Class Relatório
+class Relatórios
+{
+    public void advogadosFaixaDeIdade(int min, int max)
+    {
+        var correspondencias = advogadosLista.Where(x => x.DataNascimento >= DateTime.Now.Year - min && x <= DateTime.Now.Year - max).ToList();
+        foreach (var x in correspondencias)
+        {
+            Console.WriteLine(x);
+        }
+    }
+    public void clientesFaixaDeIdade(int min, int max)
+    {
+        var correspondencias = clientesLista.Where(x => x.DataNascimento >= DateTime.Now.Year - min && x <= DateTime.Now.Year - max).ToList();
+        foreach (var x in correspondencias)
+        {
+            Console.WriteLine(x);
+        }
+    }
+    public void clientesEstadocivilInformado(string estadocivil)
+    {
+        var correspondencias = clientesLista.Any(x => x.EstadoCivil == estadocivil);
+        foreach (var x in correspondencias)
+        {
+            Console.WriteLine(x);
+        }
+    }
+    public void clientesComProfissao(string profissao)
+    {
+        profissao = profissao.ToLower();
+        var correspondencias = clientesLista.Any(x => x.Profissao.ToLower() == profissao);
     }
 }
 #endregion
 #endregion
-public List<Advogado> listaPorIdade advogadosFaixaDeIdade(int min,int max){
-var correspondencias = advogadosLista.Where(x => x.DataNascimento >= DateTime.Now.Year-min && x <= DateTime.Now.Year-max).ToList();
-    return correspondencias;
-}
-public void clientesFaixaDeIdade(int min,int max){
-var correspondencias = clientesLista.Where(x => x.DataNascimento >= DateTime.Now.Year-min && x <= DateTime.Now.Year-max);
-    return correspondencias;
-}
-public static void Main(string[] args){
-    Advogado advogado = new Advogado();
-    Cliente cliente = new Cliente();    
 
-}

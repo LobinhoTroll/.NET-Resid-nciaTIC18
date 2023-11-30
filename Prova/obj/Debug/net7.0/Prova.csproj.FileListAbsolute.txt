@@ -1,0 +1,5 @@
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Prova/obj/Debug/net7.0/Prova.csproj.AssemblyReference.cache
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Prova/obj/Debug/net7.0/Prova.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Prova/obj/Debug/net7.0/Prova.AssemblyInfoInputs.cache
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Prova/obj/Debug/net7.0/Prova.AssemblyInfo.cs
+/home/gabriel-dos-teles/Área de trabalho/.NET-ResidenciaTIC18/Prova/obj/Debug/net7.0/Prova.csproj.CoreCompileInputs.cache
