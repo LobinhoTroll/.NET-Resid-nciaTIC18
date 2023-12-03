@@ -78,25 +78,30 @@ internal class Program
             Console.WriteLine(produto.Item1 + " " + produto.Item2 + " " + produto.Item3 + " " + produto.Item4);
             Console.WriteLine();
         }
-        void buscarPorCodigo(){
+        void buscarPorCodigo()
+        {
             Console.WriteLine("Informe o codigo do produto a ser exibido: ");
             string codigo = Console.ReadLine()!;
-            foreach (var produto in ListaDeProdutos){
-                bool verifExistence = (produto.Item2 == codigo);    
-                if (verifExistence == true)
-                {
-                    Console.WriteLine("Nome do produto: "+produto.Item1);
-                    Console.WriteLine("Código do produto: "+produto.Item2);
-                    Console.WriteLine("Quantidade em estoque: "+produto.Item3);
-                    Console.WriteLine("Valor: "+produto.Item4);
-                    Console.WriteLine();
-                }
+            bool verifExistence = ListaDeProdutos.Any(x => x.Item2 == codigo);
+            if (verifExistence == true)
+            {
+
+                Console.WriteLine("Nome do produto: " + produto.Item1);
+                Console.WriteLine("Código do produto: " + produto.Item2);
+                Console.WriteLine("Quantidade em estoque: " + produto.Item3);
+                Console.WriteLine("Valor: " + produto.Item4);
+                Console.WriteLine();
+            }
 
             }
-            
-        }
-
-        cadastrarProdutos();
-        buscarPorCodigo();
+            else
+            {
+                Console.WriteLine("Código fornecido não consta na lista de produtos cadastrados.");
+                Console.WriteLine();
+            }
     }
+
+    cadastrarProdutos();
+    buscarPorCodigo();
+}
 }
