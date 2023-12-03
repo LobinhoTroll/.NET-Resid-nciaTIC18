@@ -110,7 +110,7 @@ internal class Program
         string codigo = Console.ReadLine()!;
         bool verifExistence = ListaDeProdutos.Any(x => x.Item2 == codigo);
         
-        var produtoAtualizado = new Tuple<string, string, int, float>(nome, _codigo, novaQuantidade, valor);
+        
         if (verifExistence == true)
         {
             foreach (var produto in ListaDeProdutos)
@@ -141,13 +141,13 @@ internal class Program
                     {
                         Console.WriteLine("Não é possivel retirar mais items do que a quantidade em estoque.");
                         
+                    }else{
+                        var produtoAtualizado = new Tuple<string, string, int, float>(nome, _codigo, novaQuantidade, valor);
+                        ListaDeProdutos.Add(produtoAtualizado);
+                        ListaDeProdutos.Remove(produto);
+                        break;
                     }
                 }
-            }
-            if (novaQuantidade > -1)
-            {
-             ListaDeProdutos.Remove(produto);
-                ListaDeProdutos.Add(produtoAtualizado);   
             }
         }
         else
@@ -192,6 +192,7 @@ internal class Program
         float min = float.Parse(Console.ReadLine()!);
         Console.WriteLine("Informe o preço maximo a filtrar:");
         float max = float.Parse(Console.ReadLine()!);
+        Console.WriteLine();
 
         bool verifExistence = ListaDeProdutos.Any(x => x.Item4 >= min && x.Item4 <= max);
         if (verifExistence == true)
@@ -235,7 +236,7 @@ internal class Program
         int continuar = 0;
         while (continuar == 0)
         {
-            Console.WriteLine("Informe o que deseja fazer:\n 1. Cadastrar produto \n 2. Buscar por código \n 3. Atualizar estoque \n 4. Listar por quantidade minima \n 5. Listar por faixa de preço \n 6. exibis valores totais do estoque \n 0. Sair");
+            Console.WriteLine("Informe o que deseja fazer:\n 1. Cadastrar produto \n 2. Buscar por código \n 3. Atualizar estoque \n 4. Listar por quantidade maxima \n 5. Listar por faixa de preço \n 6. exibis valores totais do estoque \n 0. Sair");
             Console.Write("Opção escolhida: ");
             int escolha = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine();
