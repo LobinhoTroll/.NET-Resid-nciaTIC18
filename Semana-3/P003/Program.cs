@@ -104,8 +104,52 @@ internal class Program
                 Console.WriteLine();
             }
         }
+        void atualizaçaoDeEstoque(){
+            Console.WriteLine("Informe o codigo do produto a a ter sua quantidade alterada: ");
+            string codigo = Console.ReadLine()!;
+            bool verifExistence = ListaDeProdutos.Any(x => x.Item2 == codigo);
+            if (verifExistence == true)
+            {
+                foreach (var produto in ListaDeProdutos)
+                {
+                    verifExistence = (produto.Item2 == codigo);
+                    if (verifExistence == true)
+                    {
+                        string nome = produto.Item1
+                        string codigo = produto.Item2;
+                        int quantidadeEmEstoque = Convert.ToInt32(produto.Item3),quantidade;
 
-        cadastrarProdutos();
-        buscarPorCodigo();
+
+                        Console.WriteLine("Foram adicionados produtos ao estoque?: 0/S ou 1/N");
+                        int confirmacao = Console.ReadLine()!;
+                        if(confirmacao == 0){
+                            Console.WriteLine("Informe a quantidade a ser adicionada: ");
+                            quantidade = Convert.ToInt32(Console.ReadLine())!;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Informe a quantidade a ser retirada: ");
+                            quantidade = Convert.ToInt32(Console.ReadLine())!;
+                            quantidade *= -1;
+                        }
+                        int novaQuantidade = quantidadeEmEstoque + Quantidade;
+                        if(novaQuantidade > -1){
+                            var produtoAtualizado = new Tuple<string, string, int, float>(nome, codigo, novaQuantidade, valor);
+                        }
+                        else{
+                            Console.WriteLine("Não é possivel retirar mais items do que a quantidade em estoque.")
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("Código fornecido não consta na lista de produtos cadastrados.");
+                Console.WriteLine();
+            }
+        }
+    cadastrarProdutos();
+    buscarPorCodigo();
+
     }
 }
