@@ -16,65 +16,87 @@ internal class Program
             Console.WriteLine();
 
             Console.WriteLine("Informe o código do produto: ");
-            verifExistence ==ListaDeProdutos.Any(x => x[1] == codigo);
+            bool verifExistenceEnd = false;
+            string codigo;
             do
-            {    
-                string codigo = Console.ReadLine()!;
+            {
+                codigo = Console.ReadLine()!;
+                bool verifExistence = ListaDeProdutos.Any(x => x.Item2 == codigo);
                 if (verifExistence == false)
                 {
-                    verifExistenceEnd == true;
+                    verifExistenceEnd = true;
                     Console.WriteLine();
                 }
                 else
                 {
                     Console.WriteLine("Código ja cadastrado informe um codigo valido:");
-                    verifFormat == false;
                     Console.WriteLine();
                 }
             } while (verifExistenceEnd == false);
 
-
+            verifq = false;
             Console.WriteLine("Informe a quantidade em estoque do protudo: ");
             do
             {
-            try
-            {
-                quantidade = int.Parse(Console.ReadLine()!);
-                verifq = true;
-            }
-            catch (Exception error)
-            {
-                verifq = false;
-                Console.WriteLine();
-                Console.WriteLine(error.Message);
-                Console.WriteLine("Informe a quantidade novamente: ");
-                quantidade = 0;
-            }
-        } while (verifq == false);
+                try
+                {
+                    quantidade = int.Parse(Console.ReadLine()!);
+                    verifq = true;
+                    Console.WriteLine();
+                }
+                catch (Exception error)
+                {
+                    verifq = false;
+                    Console.WriteLine();
+                    Console.WriteLine(error.Message);
+                    Console.WriteLine("Informe a quantidade novamente: ");
+                    quantidade = 0;
+                }
+            } while (verifq == false);
 
             Console.WriteLine();
             Console.WriteLine("Informe o valor do produto: ");
             do
             {
-            try
-            {
-                valor = float.Parse(Console.ReadLine()!);
-                verifp = true;
-            }
-            catch (Exception error)
-            {
-                verifp = false;
-                Console.WriteLine(error.Message);
-                Console.WriteLine("Informe o valor do produto novamente: ");
-                valor = 0;
-            }
-        } while (verifp == false);
+                try
+                {
+                    valor = float.Parse(Console.ReadLine()!);
+                    verifp = true;
+                    Console.WriteLine();
+                }
+                catch (Exception error)
+                {
+                    verifp = false;
+                    Console.WriteLine(error.Message);
+                    Console.WriteLine("Informe o valor do produto novamente: ");
+                    valor = 0;
+                }
+            } while (verifp == false);
 
             var produto = new Tuple<string, string, int, float>(nome, codigo, quantidade, valor);
             ListaDeProdutos.Add(produto);
-            Console.WriteLine(produto.Item1+" "+produto.Item2+" "+produto.Item3+" "+produto.Item4);
-            }
+            Console.WriteLine(produto.Item1 + " " + produto.Item2 + " " + produto.Item3 + " " + produto.Item4);
+            Console.WriteLine();
+        }
+        void buscarPorCodigo(){
+            Console.WriteLine("Informe o codigo do produto a ser exibido: ");
+            string codigo = Console.ReadLine()!;
+            foreach (var produto in ListaDeProdutos){
+                bool verifExistence = (produto.Item2 == codigo);    
+                if (verifExistence == true)
+                {
+                    Console.WriteLine("Nome do produto: "+produto.Item1);
+                    Console.WriteLine("Código do produto: "+produto.Item2);
+                    Console.WriteLine("Quantidade em estoque: "+produto.Item3);
+                    Console.WriteLine("Valor: "+produto.Item4);
+                    Console.WriteLine();
+                }
 
-    cadastrarProdutos();
-}
+            }
+            
+        }
+
+        cadastrarProdutos();
+        buscarPorCodigo();
+    }
 }
