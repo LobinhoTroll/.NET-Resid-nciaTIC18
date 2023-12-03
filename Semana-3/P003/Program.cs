@@ -16,8 +16,23 @@ internal class Program
             Console.WriteLine();
 
             Console.WriteLine("Informe o código do produto: ");
-            string codigo = Console.ReadLine()!;
-            Console.WriteLine();
+            verifExistence ==ListaDeProdutos.Any(x => x[1] == codigo);
+            do
+            {    
+                string codigo = Console.ReadLine()!;
+                if (verifExistence == false)
+                {
+                    verifExistenceEnd == true;
+                    Console.WriteLine();
+                }
+                else
+                {
+                    Console.WriteLine("Código ja cadastrado informe um codigo valido:");
+                    verifFormat == false;
+                    Console.WriteLine();
+                }
+            } while (verifExistenceEnd == false);
+
 
             Console.WriteLine("Informe a quantidade em estoque do protudo: ");
             do
